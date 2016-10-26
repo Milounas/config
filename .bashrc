@@ -27,7 +27,7 @@ if ! shopt -oq posix; then
 fi
 
 # Path
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/mysql-5.7.13-osx10.11-x86_64/bin/mysql_config:/usr/local/mysql/bin
+PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/mysql-5.7.13-osx10.11-x86_64/bin/mysql_config:/usr/local/mysql/bin
 
 # PS1
 # Enclose all non-printable bytes in \[ \], or else prompt size will be diminished!!
